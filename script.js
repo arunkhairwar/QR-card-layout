@@ -1,0 +1,1 @@
+alert("currently the QR will not land you on my Portfolio, so please don't mind 😊")

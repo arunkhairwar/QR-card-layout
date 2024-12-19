@@ -21,19 +21,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./design/desktop-design.jpg)
+![scanner is not in working condition but it will work soon](./design/screenshot.png.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+currently the scanner is not in working condition so nothing will happend after scanning, but i am going to make use it as a portfolio scanner, so that anyone can directly jump to my portfolio just by scanning it. 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [GitHub Repositry](https://github.com/arunkhairwar/QR-card-layout.git)
 - Live Site URL: [soon](#nothing)
 
 ## My process
@@ -42,7 +36,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - then create a remote respositry on github, and push it. *i was facing some conflicts and problem with branching, merging, restor the previous solution etc. with git, then i decided to clear my basic concept first with git & github then move forward, so i learn it.* 
 - the resource is mention here: [resource](#Useful-resources) 
 - i lack the consitency for few day's because i was feeling am too slow and unable to reach expecation. and this simple project is taking more time from me, - as compare to watching the tutorial and building one. *but i was wrong* 
-- then after a week, i forget all my mistake, inconsistency, guilt and decide to finish it. i woke up early set the deep work session. did it. _still the responsiveness is missing i will add it soon_
+- then after a week, i forget all my mistake, inconsistency, guilt and decide to finish it. i woke up early set the deep work session. did it. _still the responsiveness is missing i will be adding it soon_
 
 ### Built with
 
@@ -50,25 +44,49 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
+- Mobile-first workflow 
+<!--
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
+ -->
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. the resourese will be mention in ()
+this project helped me to learn and explore more about version contorl and common use of it. like why we need to use it, and how important it is to manage our code. apart from this i learn about 
+- how to achieve responsivenss using pure CSS code without any framework, 
+- learn flexbox and it's usage. 
 
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="card-layout">
+      <div class="QR">
+        <img src="/images/image-qr-code.png" alt="qr" />
+      </div>
+      <div class="otherInfo">
+        <h3>Visit My Portfolio by Scaning this QR</h3>
+        <p>
+          scan the QR to visit my portfolio and explore more about me. like past
+          expreience, project etc.
+        </p>
+      </div>
+    </div>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.card-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: white;
+  /* position: absolute; */
+  margin-top: 70px;
+  width: 250px;
+  height: 400px;
+  border: 2px solid black;
+  border-radius: 20px;
 }
 ```
 ```js
