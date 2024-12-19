@@ -23,7 +23,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![](/design/screenshot.png)
 
-currently the scanner is not in working condition so nothing will happend after scanning, but i am going to make use it as a portfolio scanner, so that anyone can directly jump to my portfolio just by scanning it.
 
 ### Links
 
