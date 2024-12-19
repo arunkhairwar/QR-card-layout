@@ -23,7 +23,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![](/design/screenshot.png)
 
-
 ### Links
 
 - Solution URL: [GitHub Repositry](https://github.com/arunkhairwar/QR-card-layout.git)
@@ -60,7 +59,8 @@ this project helped me to learn and explore more about version contorl and commo
 
 some code snippets, see below:
 
-#HTML
+##HTML
+
 ```html
 <div class="card-layout">
   <div class="QR">
@@ -75,7 +75,9 @@ some code snippets, see below:
   </div>
 </div>
 ```
-#CSS
+
+##CSS
+
 ```css
 .card-layout {
   display: flex;
@@ -91,24 +93,25 @@ some code snippets, see below:
   border-radius: 20px;
 }
 ```
-#JavaScript 
+
+##JavaScript
+
 ```js {
 alert("currently the QR will not land you on my Portfolio, so please don't mind 😊")
  }
 ```
 
-
 **Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-- responsive 
-
+- responsive
 
 ### Useful resources
+
 - [The Markdown Guide](https://www.markdownguide.org/) - This source helped me with writing markdown.
 - [learn Github](https://youtu.be/r8QQOAicu8Y?si=UXPWRQODWLoaVVkR) - I used this playlist to learn git & github
-- [learn Responsiveness](https://youtu.be/HG10yrq1pbk?si=-I_vgheXwUHEmC7L) - Use this video understand and achieve responsivenss in this mini project. 
+- [learn Responsiveness](https://youtu.be/HG10yrq1pbk?si=-I_vgheXwUHEmC7L) - Use this video understand and achieve responsivenss in this mini project.
 
 ## Author
 
@@ -116,9 +119,6 @@ alert("currently the QR will not land you on my Portfolio, so please don't mind 
 - Frontend Mentor - [@arunmkhairwar](https://www.frontendmentor.io/profile/arunkhairwar)
 - Linkdin - [@arunkhairwar](https://www.linkedin.com/in/arun-khairwar)
 
-
-
 ## Acknowledgments
 
-First thanks to the frontend mentor team who gave me the opportunity to and build something by wihout stucking in tutorial hell, i learn a lot by doing this simple project by own, and i also thanks sheriyanse coding school whose videos and tutorial helped me throught this journey.
-
+First, thanks to the frontend mentor team who gave me the opportunity to build something challenging wihout stucking in tutorial hell and provide all the possible guidance, i learn a lot by doing this simple project by own, and i also thanks sheriyanse coding school *(youtube channer & team)* whose videos and tutorial helped me throught the journey.
